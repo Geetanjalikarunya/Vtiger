@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-25T10:05:58 IST" name="Default suite" finished-at="2023-08-25T10:06:14 IST" duration-ms="16103">
+    <groups>
+    </groups>
+    <test started-at="2023-08-25T10:05:58 IST" name="Default test" finished-at="2023-08-25T10:06:14 IST" duration-ms="16103">
+      <class name="VtigerFinalTestScript.CreateNewEventTest">
+        <test-method is-config="true" signature="classSetup()[pri:0, instance:VtigerFinalTestScript.CreateNewEventTest@40005471]" started-at="2023-08-25T10:05:58 IST" name="classSetup" finished-at="2023-08-25T10:06:00 IST" duration-ms="1892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetup -->
+        <test-method is-config="true" signature="methodSetup()[pri:0, instance:VtigerFinalTestScript.CreateNewEventTest@40005471]" started-at="2023-08-25T10:06:00 IST" name="methodSetup" finished-at="2023-08-25T10:06:03 IST" duration-ms="2800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method signature="createNewEventTest()[pri:0, instance:VtigerFinalTestScript.CreateNewEventTest@40005471]" started-at="2023-08-25T10:06:03 IST" name="createNewEventTest" finished-at="2023-08-25T10:06:13 IST" duration-ms="10177" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate option with value: New Event
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with value: New Event
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:291)
+at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:194)
+at genericLibraries.WebDriverUtility.selectFromDropDown(WebDriverUtility.java:186)
+at pomPages.HomePage.selectFromquickCreate(HomePage.java:49)
+at VtigerFinalTestScript.CreateNewEventTest.createNewEventTest(CreateNewEventTest.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewEventTest -->
+        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:VtigerFinalTestScript.CreateNewEventTest@40005471]" started-at="2023-08-25T10:06:13 IST" name="methodTearDown" finished-at="2023-08-25T10:06:14 IST" duration-ms="1069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="classTearDown()[pri:0, instance:VtigerFinalTestScript.CreateNewEventTest@40005471]" started-at="2023-08-25T10:06:14 IST" name="classTearDown" finished-at="2023-08-25T10:06:14 IST" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTearDown -->
+      </class> <!-- VtigerFinalTestScript.CreateNewEventTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
