@@ -12,7 +12,7 @@ import java.util.List;
 
 import com.mysql.cj.jdbc.Driver;
 
-
+//database utility is used to fetch the data
 
 public class DatabaseUtility {
 
